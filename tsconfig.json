@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "module": "CommonJS",
+        "target": "ES2015",
+        "strict": true,
+        "noImplicitAny": true,
+        "tsBuildInfoFile": "./__cached__/.tsbuildinfo",
+        "incremental": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {}
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./node_modules",
+        "./dist",
+        "./__test__"
+    ]
+}
